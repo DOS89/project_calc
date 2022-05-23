@@ -1,0 +1,31 @@
+{
+  "name": "parse",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "autoru-a": "nodemon --verbose --ignore data/ ./src/a.js",
+    "autoru-b": "nodemon --verbose --ignore data/ ./src/b.js",
+    "autoru-c": "nodemon --verbose --ignore data/ ./src/c.js",
+    "autoru-d": "nodemon --verbose --ignore data/ ./src/d.js",
+    "autoru-e": "nodemon --verbose --ignore data/ ./src/e.js",
+    "dromru-d": "nodemon --verbose --ignore data/ ./src/dromru-d.js",
+    "dromru-a": "nodemon --verbose --ignore data/ ./src/autoru-a.js",
+    "dromru-с": "nodemon --verbose --ignore data/ ./src/autoru-c.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.2.0",
+    "process": "latest",
+    "puppeteer": "^13.1.1",
+    "puppeteer-core": "^13.1.1"
+  },
+  "eslint": "8.7.0",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
